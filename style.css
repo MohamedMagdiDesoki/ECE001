@@ -1,0 +1,182 @@
+body
+{
+ margin: 0px;
+ padding: 0px;
+ background-color: #B3B3B3;
+}
+.contanierlinks
+{
+ width: 100%;
+ background-color: #555;
+ font: bold 20px arial;
+ position: fixed;
+ z-index: 5;
+}
+.links
+{
+ padding: 0;
+ margin:0;
+}
+.links li
+{
+ position: relative;
+ display: block;
+ float: left;
+ width: 20%;
+ text-align: center;
+ list-style-type: none;
+ margin: 0;
+ padding: 5px 0px;
+ height: 63px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.links li a
+{
+ margin:0px;
+ padding:0px;
+ padding-left:10px;
+ padding-left:10px;
+ text-decoration: none;
+ color:white;
+}
+.links li:before
+{
+ content: "";
+ position: absolute;
+ left: 0;
+ right: 100%;
+ bottom: 0;
+ background: #00E091;
+ height: 4px;
+ transition-duration: 0.3s;
+}
+.links li:hover:before, .links li:focus:before, .links li:active:before, .links li:hover
+{
+ text-shadow: 2px 2px 4px #000;
+ right: 0;
+}
+.triangle1
+{
+ position: fixed;
+ z-index: 1;
+border-left: 203vh  solid transparent;
+ border-top: 100.3vh  solid #A3C6D4;
+}
+.triangle2
+{
+ position: fixed;
+	border-right: 203vh  solid transparent;
+ border-top: 100.3vh  solid #637076;
+}
+.currentpage
+{
+ background: #00E091;
+}
+.titleofresearch
+{
+ width: 74%;
+ position: absolute;
+ top: 140px;
+ z-index: 1;
+ padding: 0px 0px 11px 50px;
+ background-color: #E2E2E2;
+ font: 400 50px serif, "Times New Roman",Times;
+}
+.cointroduction, .codefinitions, .Traits, .cofpl, .cooopl, .cospl, .colpl, .conote
+{
+ width:94%;
+ padding:20px;
+ position:absolute;
+ top:250px;
+ background-color: #E2E2E2;
+ z-index: 1;
+ font: 400 25px serif, "Times New Roman",Times;
+ border:0px;
+}
+legend
+{
+ font: 400 40px serif, "Times New Roman",Times;
+ background-color: #E2E2E1;
+ border-radius:30px;
+ box-shadow: 0 1px 6px 0 rgb(0, 0, 0);
+ letter-spacing: 1px;
+ font-family: Andalus;
+}
+.contanierlinks, .titleofresearch, .cointroduction, .conote
+{
+ box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 21px 0 rgba(0, 0, 0, 0.19);
+ letter-spacing: 1px;
+ font-family: Andalus;
+}
+p
+{
+ text-indent: 40px;
+ text-align: justify;
+}
+.codefinitions
+{
+ top: 1100px;
+}
+.Traits
+{
+ position: initial;
+}
+.cofpl
+{
+ top:607px;
+}
+.cooopl
+{
+ top:1018px;
+}
+.cospl
+{
+ top:1450px
+}
+.colpl
+{
+ top:1771px; 
+}
+.tablerating
+{
+ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+ border-collapse: collapse;
+ position: absolute;
+ top:277px;
+ z-index: 3;
+}
+
+.tablerating td
+{
+ border-top: 1px solid #ddd;
+ padding: 8px;
+ background-color: #f2f2f2;
+}
+.tablerating tbody tr:hover td
+{
+ background-color: lightgrey;
+}
+.tablerating th
+{
+ padding: 12px 0px;
+ background-color: #828282;
+ color: white;
+ text-align: center;
+}
+.ratingimg
+{
+ top:140px;
+ position:relative;
+ size:200px;
+ z-index: 4;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 21px 0 rgba(0, 0, 0, 0.19);
+}
+.conote
+{
+ top: 616px;
+}
